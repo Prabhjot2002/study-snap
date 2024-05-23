@@ -1,0 +1,57 @@
+ul[data-type="taskList"] {
+  list-style: none;
+  padding: 0;
+}
+ul[data-type="taskList"] p {
+  font-weight: 500;
+  margin: 0;
+  font-size: 1rem;
+  margin: -0.5rem 0 0;
+  transform: translateY(-0.1rem);
+  text-wrap: wrap;
+}
+ul[data-type="taskList"] li > div {
+  margin: 0;
+  padding: 0;
+}
+
+ul[data-type="taskList"] li {
+  width: 100%;
+  display: flex;
+  gap: 0.5rem;
+  padding: 0;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+ul[data-type="taskList"] li > label {
+  display: inline-flex;
+  aspect-ratio: 1 / 1;
+  align-items: center;
+  user-select: none;
+  margin: 0;
+}
+ul[data-type="taskList"] li input {
+  height: 1rem;
+  min-width: 25px;
+
+  width: 100%;
+  margin: 0;
+  outline: 0;
+  border: 0;
+}
+ul[data-type="taskList"] li > div {
+  flex: 1 1 auto;
+  align-items: center;
+  justify-content: start;
+  width: 100%;
+}
+ul[data-type="taskList"] li ul li,
+ul[data-type="taskList"] li ol li {
+  display: flex;
+  margin-right: 0.5rem;
+  justify-content: space-between;
+}
+ul[data-type="taskList"] li ul[data-type="taskList"] > li {
+  display: flex;
+}
