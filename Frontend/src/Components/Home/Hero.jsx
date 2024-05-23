@@ -60,7 +60,7 @@ export const Hero = ({ scrollToFeatures }) => {
             </button>
 
             <a
-              href="https://github.com/Prabhjot2002"
+              href="https://github.com/Prabhjot2002/study-snap"
               target="_blank"
               className="px-6 flex py-3 items-center hover:text-black gap-3 border text-sm hover:bg-white transition-colors duration-300 font-medium border-gray-600 rounded-lg cursor-pointer"
             >
